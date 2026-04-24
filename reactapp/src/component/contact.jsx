@@ -7,10 +7,14 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if(email.endswith("krmu.edu.in")){
         console.log("Name:", name)
         console.log("Email", email)
         console.log("Message", message)
+        console.log(data)
+        }else{
     }
+  }
   return (
     <div>
         <h1>Contact us</h1>
